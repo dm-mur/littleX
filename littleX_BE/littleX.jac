@@ -70,7 +70,9 @@ walker update_profile(visit_profile) {
     has new_username: str;
 }
 
-walker get_profile(visit_profile) {}
+walker get_profile(visit_profile) {
+
+}
 
 walker load_user_profiles {
     obj __specs__ {
